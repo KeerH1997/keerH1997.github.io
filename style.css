@@ -227,7 +227,7 @@ p + p {
 .view-toggle {
   display: flex;
   gap: 12px;
-  margin-bottom: 24px;
+  margin: 24px 0;
   border-bottom: 1px solid #e0e0e0;
   padding-bottom: 12px;
 }
@@ -238,7 +238,7 @@ p + p {
   padding: 8px 16px;
   font-size: 13px;
   font-weight: 500;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: #666666;
   cursor: pointer;
@@ -257,18 +257,10 @@ p + p {
 }
 
 .publication-view {
-  animation: fadeIn 0.3s ease;
+  animation: fadeIn 0.25s ease;
 }
 
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(8px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-
-  
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
