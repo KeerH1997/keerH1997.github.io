@@ -14,7 +14,7 @@
     <header class="header">
       <div>
         <div class="site-title">Keer Huang</div>
-        <div class="site-subtitle"></div>
+        <div class="site-subtitle">Postdoctoral Fellow, Wuhan University · International Investment Law · International Dispute Settlement · Global Subsidy Regulation</div>
       </div>
       <nav class="nav">
         <a href="index.html">Home</a>
@@ -31,73 +31,174 @@
           Peer–reviewed articles, book chapters, policy comments, and other academic outputs.
         </p>
 
-        <div style="margin-top: 24px;"></div>
+        <div class="view-toggle">
+          <button class="toggle-btn active" data-view="category">By Category</button>
+          <button class="toggle-btn" data-view="field">By Research Field</button>
+        </div>
 
-        <h3 class="sidebar-title">Peer-Reviewed Articles</h3>
-        <ul class="item-list">
-          <li>
-            <div class="item-title">
-              Research on the Regulation of Outward Foreign Direct Investment Subsidies
-            </div>
-            <div class="item-meta">
-              <em>China Legal Science</em>, Vol. 12, 2024, pp. 131–158.
-            </div>
-            <div class="item-links">
-              <a href="https://www.researchgate.net/publication/379835549_Research_on_the_Regulation_of_Outward_Foreign_Direct_Investment_Subsidies" target="_blank" rel="noopener noreferrer">Paper</a>
-            </div>
-          </li>
-          <li>
-            <div class="item-title">
-              Between Old and New: Rethinking Modernization of China’s IIA Regime
-            </div>
-            <div class="item-meta">
-              <em>Asian Journal of WTO & International Health Law and Policy</em>, Vol. 18, 2023, pp. 181–230.
-            </div>
-            <div class="item-links">
-              <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4410994" target="_blank" rel="noopener noreferrer">Paper</a>
-            </div>
-          </li>
-          <li>
-            <div class="item-title">
-              Avoid Opening up the Pandora’s Box: Treaty Parallelism, Termination and Survival in the Reform of the China–EU Investment Regime
-            </div>
-            <div class="item-meta">
-              <em>Asia Pacific Law Review</em>, Vol. 30(2), 2022, pp. 367–381.
-            </div>
-            <div class="item-links">
-              <a href="https://www.tandfonline.com/doi/full/10.1080/10192557.2022.2085415" target="_blank" rel="noopener noreferrer">Paper</a>
-            </div>
-          </li>
-        </ul>
+        <!-- 传统分类视图 -->
+        <div id="view-category" class="publication-view">
+          <h3 class="sidebar-title">Peer-Reviewed Articles</h3>
+          <ul class="item-list">
+            <li>
+              <div class="item-title">
+                Research on the Regulation of Outward Foreign Direct Investment Subsidies
+              </div>
+              <div class="item-meta">
+                <em>China Legal Science</em>, Vol. 12, 2024, pp. 131–158.
+              </div>
+              <div class="item-links">
+                <a href="https://www.researchgate.net/publication/379835549_Research_on_the_Regulation_of_Outward_Foreign_Direct_Investment_Subsidies" target="_blank" rel="noopener noreferrer">Paper</a>
+              </div>
+            </li>
+            <li>
+              <div class="item-title">
+                Between Old and New: Rethinking Modernization of China’s IIA Regime
+              </div>
+              <div class="item-meta">
+                <em>Asian Journal of WTO & International Health Law and Policy</em>, Vol. 18, 2023, pp. 181–230.
+              </div>
+              <div class="item-links">
+                <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4410994" target="_blank" rel="noopener noreferrer">Paper</a>
+              </div>
+            </li>
+            <li>
+              <div class="item-title">
+                Avoid Opening up the Pandora’s Box: Treaty Parallelism, Termination and Survival in the Reform of the China–EU Investment Regime
+              </div>
+              <div class="item-meta">
+                <em>Asia Pacific Law Review</em>, Vol. 30(2), 2022, pp. 367–381.
+              </div>
+              <div class="item-links">
+                <a href="https://www.tandfonline.com/doi/full/10.1080/10192557.2022.2085415" target="_blank" rel="noopener noreferrer">Paper</a>
+              </div>
+            </li>
+          </ul>
 
-        <div style="margin-top: 30px;"></div>
+          <h3 class="sidebar-title" style="margin-top:30px;">Book Chapters</h3>
+          <ul class="item-list">
+            <li>
+              <div class="item-title">
+                [Add your chapter title here]
+              </div>
+              <div class="item-meta">
+                In: <em>Book Title</em>, Publisher, Year, pp. XX–XX.
+              </div>
+            </li>
+          </ul>
 
-        <h3 class="sidebar-title">Book Chapters</h3>
-        <ul class="item-list">
-          <li>
- <li>
-            <div class="item-title">
-              Avoid Opening up the Pandora’s Box: Treaty Parallelism, Termination and Survival in the Reform of the China–EU Investment Regime
-            </div>
-            <div class="item-meta">
-              <em>Asia Pacific Law Review</em>, Vol. 30(2), 2022, pp. 367–381.
-            </div>
-            <div class="item-links">
-              <a href="https://www.tandfonline.com/doi/full/10.1080/10192557.2022.2085415" target="_blank" rel="noopener noreferrer">Paper</a>
-            </div>
-          </li>
+          <h3 class="sidebar-title" style="margin-top:30px;">Comments & Policy Briefs</h3>
+          <ul class="item-list">
+            <li>
+              <div class="item-title">
+                [Add your comment / policy brief here]
+              </div>
+              <div class="item-meta">
+                <em>Journal / Platform</em>, Year.
+              </div>
+            </li>
+          </ul>
+        </div>
 
-             <h3 class="sidebar-title">Book Chapters</h3>
-          
-       
+        <!-- 研究领域视图 -->
+        <div id="view-field" class="publication-view" style="display:none;">
+          <h3 class="sidebar-title">International Dispute Settlement</h3>
+          <ul class="item-list">
+            <li>
+              <div class="item-title">
+                Between Old and New: Rethinking Modernization of China’s IIA Regime
+              </div>
+              <div class="item-meta">
+                <em>Asian Journal of WTO & International Health Law and Policy</em>, Vol. 18, 2023, pp. 181–230.
+              </div>
+              <div class="item-links">
+                <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4410994" target="_blank" rel="noopener noreferrer">Paper</a>
+              </div>
+            </li>
+            <li>
+              <div class="item-title">
+                Avoid Opening up the Pandora’s Box: Treaty Parallelism, Termination and Survival in the Reform of the China–EU Investment Regime
+              </div>
+              <div class="item-meta">
+                <em>Asia Pacific Law Review</em>, Vol. 30(2), 2022, pp. 367–381.
+              </div>
+              <div class="item-links">
+                <a href="https://www.tandfonline.com/doi/full/10.1080/10192557.2022.2085415" target="_blank" rel="noopener noreferrer">Paper</a>
+              </div>
+            </li>
+          </ul>
+
+          <h3 class="sidebar-title" style="margin-top:30px;">Global Subsidy Regulation</h3>
+          <ul class="item-list">
+            <li>
+              <div class="item-title">
+                Research on the Regulation of Outward Foreign Direct Investment Subsidies
+              </div>
+              <div class="item-meta">
+                <em>China Legal Science</em>, Vol. 12, 2024, pp. 131–158.
+              </div>
+              <div class="item-links">
+                <a href="https://www.researchgate.net/publication/379835549_Research_on_the_Regulation_of_Outward_Foreign_Direct_Investment_Subsidies" target="_blank" rel="noopener noreferrer">Paper</a>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
 
-      
+      <aside>
+        <div class="sidebar-block">
+          <div class="sidebar-title">Contact</div>
+          <ul class="sidebar-list">
+            <li><span class="icon">📧</span> <a href="mailto:keerhuang1997@gmail.com">Email</a></li>
+            <li><span class="icon">🔗</span> <a href="https://www.linkedin.com/in/keer-huang-293329236/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            <li><span class="icon">📘</span> <a href="https://www.researchgate.net/profile/Keer-Huang-2/research" target="_blank" rel="noopener noreferrer">ResearchGate</a></li>
+          </ul>
+        </div>
+
+        <div class="sidebar-block">
+          <div class="sidebar-title">Recent Publications</div>
+          <ul class="sidebar-list sidebar-small">
+            <li><a href="https://www.researchgate.net/publication/379835549_Research_on_the_Regulation_of_Outward_Foreign_Direct_Investment_Subsidies" target="_blank" rel="noopener noreferrer">Research on the Regulation of Outward Foreign Direct Investment Subsidies</a></li>
+            <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4410994" target="_blank" rel="noopener noreferrer">Between Old and New: Rethinking Modernization of China’s IIA Regime</a></li>
+            <li><a href="https://www.tandfonline.com/doi/full/10.1080/10192557.2022.2085415" target="_blank" rel="noopener noreferrer">Avoid Opening up the Pandora’s Box</a></li>
+          </ul>
+        </div>
+
+        <div class="sidebar-block">
+          <div class="sidebar-title">Ongoing Projects</div>
+          <ul class="sidebar-list sidebar-small">
+            <li>
+              <a href="https://keerh1997.github.io/ISDS-cases-tracker/" target="_blank" rel="noopener noreferrer">China-Related ISDS Cases Tracker</a><br />
+              <strong>·</strong> Monitoring and analyzing Investor-State Dispute Settlement cases involving the People’s Republic of China, delivering timely insights to academics, practitioners, and policymakers.
+            </li>
+          </ul>
+        </div>
+      </aside>
     </main>
 
     <footer class="footer">
       © Keer Huang · Publications
     </footer>
   </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const buttons = document.querySelectorAll('.toggle-btn');
+      const views = document.querySelectorAll('.publication-view');
+
+      buttons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const target = btn.dataset.view;
+
+          buttons.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+
+          views.forEach(view => {
+            view.style.display = (view.id === 'view-' + target) ? 'block' : 'none';
+          });
+        });
+      });
+    });
+  </script>
 </body>
 </html>
