@@ -229,9 +229,13 @@ p + p {
   .page-container {
     padding: 
 
-  .about-photo {
-  margin-bottom: 16px;
-  max-width: 150px;   /* 原先如果是 220px，可以换成 150px */
+.about-photo {
+  margin-bottom: 4px;   
+  max-width: 150px;
+}
+
+.about-photo + p {
+  margin-top: 0;        
 }
 
 .about-photo img {
