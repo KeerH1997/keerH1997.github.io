@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Your Name – Publications</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-container">
+    <header class="header">
+      <div>
+        <div class="site-title">YOUR NAME</div>
+        <div class="site-subtitle">Affiliation · Research Area · Email</div>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="publications.html" class="active">Publications</a>
+        <a href="talks.html">Talks</a>
+        <a href="projects.html">Projects</a>
+      </nav>
+    </header>
+
+    <main class="main-layout">
+      <section>
+        <h2 class="section-title">Publications</h2>
+        <p class="text-muted">
+          (* indicates equal contribution. Links to PDF, code, and slides where available.)
+        </p>
+
+        <div style="margin-top: 18px;"></div>
+
+        <h3 class="sidebar-title">Selected</h3>
+        <ul class="item-list">
+          <li>
+            <div class="item-title">
+              Title of Your Best Paper
+            </div>
+            <div class="item-meta">
+              Your Name, Coauthor Name · Conference Name, 2025
+            </div>
+            <div class="item-links">
+              <a href="#">PDF</a> · <a href="#">Code</a> · <a href="#">BibTeX</a>
+            </div>
+          </li>
+
+          <li>
+            <div class="item-title">
+              Another Important Paper
+            </div>
+            <div class="item-meta">
+              Your Name, Coauthor Name · Journal Name, 2024
+            </div>
+            <div class="item-links">
+              <a href="#">PDF</a>
+            </div>
+          </li>
+        </ul>
+
+        <h3 class="sidebar-title" style="margin-top: 26px;">All Publications</h3>
+        <ul class="item-list">
+          <!-- 按年份分组示例 -->
+          <li>
+            <div class="item-meta"><strong>2025</strong></div>
+            <div class="item-title">
+              Paper Title 2025
+            </div>
+            <div class="item-meta">
+              Your Name et al. · Conference 2025
+            </div>
+          </li>
+
+          <li>
+            <div class="item-meta"><strong>2024</strong></div>
+            <div class="item-title">
+              Paper Title 2024
+            </div>
+            <div class="item-meta">
+              Your Name et al. · Journal 2024
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <aside>
+        <div class="sidebar-block">
+          <div class="sidebar-title">Navigation</div>
+          <ul class="sidebar-list">
+            <li><a href="#top">Back to top</a></li>
+            <li><a href="index.html">Home</a></li>
+          </ul>
+        </div>
+        <div class="sidebar-block">
+          <div class="sidebar-title">Keywords</div>
+          <ul class="sidebar-list">
+            <li>Machine Learning</li>
+            <li>Natural Language Processing</li>
+            <li>Trustworthy AI</li>
+          </ul>
+        </div>
+      </aside>
+    </main>
+
+    <footer class="footer">
+      © Your Name · Publications
+    </footer>
+  </div>
+</body>
+</html>
