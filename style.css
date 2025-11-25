@@ -210,4 +210,17 @@ p + p {
   .site-title {
     font-size: 26px;
   }
+
+/* style.css */
+.role-muted {
+  color: #4a4a4a;
+  font-style: italic;
+}
+
+.sidebar-list.sidebar-small li {
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+  
 }
