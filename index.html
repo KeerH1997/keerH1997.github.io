@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Your Name – Academic Homepage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-container">
+    <!-- 顶部：姓名 + 导航 -->
+    <header class="header">
+      <div>
+        <div class="site-title">YOUR NAME</div>
+        <div class="site-subtitle">Affiliation · Research Area · Email</div>
+      </div>
+      <nav class="nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="publications.html">Publications</a>
+        <a href="talks.html">Talks</a>
+        <a href="projects.html">Projects</a>
+      </nav>
+    </header>
+
+    <!-- 主体：左正文 + 右侧栏 -->
+    <main class="main-layout">
+      <!-- 左侧：简介 + 三个卡片 -->
+      <section>
+        <h2 class="section-title">About</h2>
+        <p>
+          This is a short bio. You can introduce your current position, research interests,
+          and a one–sentence summary of your work.
+        </p>
+        <p>
+          Example: I am a PhD candidate in Computer Science at Somewhere University. My research focuses on
+          machine learning, natural language processing, and trustworthy AI.
+        </p>
+
+        <div style="margin-top: 26px;"></div>
+
+        <h2 class="section-title">Overview</h2>
+        <div class="card-grid">
+          <a class="card" href="publications.html">
+            <div class="card-title">Publications</div>
+            <div class="card-desc">
+              Peer–reviewed papers, preprints, and selected manuscripts.
+            </div>
+          </a>
+          <a class="card" href="talks.html">
+            <div class="card-title">Talks</div>
+            <div class="card-desc">
+              Invited talks, conference presentations, and seminar slides.
+            </div>
+          </a>
+          <a class="card" href="projects.html">
+            <div class="card-title">Projects</div>
+            <div class="card-desc">
+              Research projects, open–source software, and collaborations.
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- 右侧：侧栏 -->
+      <aside>
+        <div class="sidebar-block">
+          <div class="sidebar-title">Contact</div>
+          <ul class="sidebar-list">
+            <li>Email: <a href="mailto:your.name@university.edu">your.name@university.edu</a></li>
+            <li>GitHub: <a href="https://github.com/yourname">github.com/yourname</a></li>
+            <li>Google Scholar: <a href="https://scholar.google.com">Scholar Profile</a></li>
+          </ul>
+        </div>
+
+        <div class="sidebar-block">
+          <div class="sidebar-title">Recent</div>
+          <ul class="sidebar-list">
+            <li>Paper A, Conference 2025</li>
+            <li>Talk at XYZ Seminar, 2025</li>
+            <li>New project on <a href="https://github.com/yourname/yourproject">GitHub</a></li>
+          </ul>
+        </div>
+      </aside>
+    </main>
+
+    <footer class="footer">
+      © Your Name · Last updated 2025
+    </footer>
+  </div>
+</body>
+</html>
