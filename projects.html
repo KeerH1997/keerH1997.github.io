@@ -2,58 +2,84 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Keer Huang – Projects</title>
+  <title>Keer Huang - Projects</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600&display=swap"
+    rel="stylesheet"
+  />
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body class="projects-page">
   <div class="page-container">
     <header class="header">
       <div>
         <div class="site-title">Keer Huang</div>
-        <div class="site-subtitle">keerhuang1997@gmail.com</div>
+        <div class="site-subtitle">
+          <a href="mailto:keerhuang1997@gmail.com">&#9993; keerhuang1997@gmail.com</a>
+        </div>
       </div>
       <nav class="nav">
         <a href="index.html">Home</a>
         <a href="publications.html">Publications</a>
-        <a href="talks.html">Talks</a>
         <a href="projects.html" class="active">Projects</a>
+        <a href="talks.html">Talks</a>
       </nav>
     </header>
 
-    <main class="main-layout">
+    <main class="main-layout projects-layout">
       <section>
         <h2 class="section-title">Projects</h2>
+        <p class="projects-lead">
+          Selected research tools and reference platforms in international investment law.
+        </p>
 
-        <div class="card-grid" style="margin-top:24px;">
-          <a class="card" href="https://keerh1997.github.io/ISDS-cases-tracker/" target="_blank" rel="noopener noreferrer">
-          <div class="card-thumb">
-  <img src="assets/image1.png" alt="ISDS Cases Tracker" />
-</div
-            <div class="card-title">ISDS Cases Tracker</div>
+        <div class="card-grid projects-grid">
+          <a
+            class="card project-card"
+            href="https://whucoil.github.io/IIL-research-guide/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="card-thumb">
+              <img src="assets/project-iil-guide.svg" alt="IIL Research Guide thumbnail" />
+            </div>
+            <div class="project-label">Project 1</div>
+            <div class="card-title">IIL Research Guide</div>
             <div class="card-desc">
-              Live database monitoring China-related investor–State disputes.
+              Third-edition guide to core international investment law online resources,
+              organized around research use cases such as organizations, practice
+              tracking, insights, case search, and treaty search.
+            </div>
+          </a>
+
+          <a
+            class="card project-card"
+            href="https://whucoil.github.io/China-Related-ISDS-Cases-Tracker/index.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="card-thumb">
+              <img
+                src="assets/project-isds-tracker.svg"
+                alt="China-Related ISDS Cases Tracker thumbnail"
+              />
+            </div>
+            <div class="project-label">Project 2</div>
+            <div class="card-title">China-Related ISDS Cases Tracker</div>
+            <div class="card-desc">
+              Research platform tracking China-related investor-State disputes, with case
+              data, issue analysis, and supporting resources.
             </div>
           </a>
         </div>
       </section>
-
-      <aside>
-        <div class="sidebar-block">
-          <div class="sidebar-title"></div>
-          <ul class="sidebar-list">
-            <li><a href="index.html"></a></li>
-            <li><a href="publications.html"></a></li>
-          </ul>
-        </div>
-      </aside>
     </main>
 
     <footer class="footer">
-      © Keer Huang · Projects
+      &copy; Keer Huang &middot; Projects
     </footer>
   </div>
 </body>

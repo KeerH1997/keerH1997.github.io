@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 650" role="img" aria-labelledby="title desc">
+  <title id="title">IIL Research Guide</title>
+  <desc id="desc">Academic thumbnail for the IIL Research Guide project.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eef2f7"/>
+      <stop offset="100%" stop-color="#dfe6ef"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#10243d"/>
+      <stop offset="100%" stop-color="#193250"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1160" height="650" fill="url(#bg)"/>
+  <rect x="52" y="52" width="1056" height="546" rx="24" fill="#ffffff" stroke="#cad4df" stroke-width="4"/>
+
+  <rect x="94" y="94" width="214" height="462" rx="18" fill="url(#panel)"/>
+  <rect x="124" y="138" width="108" height="22" rx="11" fill="#ffffff" opacity="0.88"/>
+  <rect x="124" y="188" width="146" height="16" rx="8" fill="#5f7a99"/>
+  <rect x="124" y="226" width="122" height="16" rx="8" fill="#5f7a99"/>
+  <rect x="124" y="264" width="134" height="16" rx="8" fill="#5f7a99"/>
+  <rect x="124" y="302" width="114" height="16" rx="8" fill="#5f7a99"/>
+  <rect x="150" y="446" width="102" height="102" rx="10" fill="#f6f8fb"/>
+  <rect x="170" y="466" width="62" height="62" fill="#10243d"/>
+  <path d="M170 497h62M201 466v62" stroke="#f6f8fb" stroke-width="4"/>
+
+  <rect x="344" y="94" width="714" height="124" rx="18" fill="#f5f7fa" stroke="#d7e0e8" stroke-width="3"/>
+  <rect x="378" y="124" width="330" height="18" rx="9" fill="#243d57"/>
+  <rect x="378" y="158" width="618" height="12" rx="6" fill="#8ea0b4"/>
+  <rect x="378" y="184" width="562" height="12" rx="6" fill="#8ea0b4"/>
+
+  <rect x="344" y="254" width="214" height="258" rx="18" fill="#fbfcfd" stroke="#d8e1ea" stroke-width="3"/>
+  <rect x="374" y="286" width="154" height="88" rx="12" fill="#dde6ef"/>
+  <rect x="374" y="396" width="142" height="12" rx="6" fill="#354a60"/>
+  <rect x="374" y="424" width="154" height="10" rx="5" fill="#9cabbb"/>
+  <rect x="374" y="446" width="128" height="10" rx="5" fill="#9cabbb"/>
+
+  <rect x="594" y="254" width="214" height="258" rx="18" fill="#fbfcfd" stroke="#d8e1ea" stroke-width="3"/>
+  <rect x="624" y="286" width="154" height="88" rx="12" fill="#d4dfec"/>
+  <path d="M654 332h94M701 301v62" stroke="#5f7a99" stroke-width="8" stroke-linecap="round"/>
+  <rect x="624" y="396" width="136" height="12" rx="6" fill="#354a60"/>
+  <rect x="624" y="424" width="154" height="10" rx="5" fill="#9cabbb"/>
+  <rect x="624" y="446" width="116" height="10" rx="5" fill="#9cabbb"/>
+
+  <rect x="844" y="254" width="214" height="258" rx="18" fill="#fbfcfd" stroke="#d8e1ea" stroke-width="3"/>
+  <rect x="874" y="286" width="154" height="88" rx="12" fill="#e4ebf2"/>
+  <rect x="874" y="396" width="146" height="12" rx="6" fill="#354a60"/>
+  <rect x="874" y="424" width="154" height="10" rx="5" fill="#9cabbb"/>
+  <rect x="874" y="446" width="136" height="10" rx="5" fill="#9cabbb"/>
+
+  <text x="378" y="560" fill="#20364c" font-family="Aptos, Segoe UI, Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="6">IIL RESEARCH GUIDE</text>
+</svg>

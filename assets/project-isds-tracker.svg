@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 650" role="img" aria-labelledby="title desc">
+  <title id="title">China-Related ISDS Cases Tracker</title>
+  <desc id="desc">Academic thumbnail for the China-Related ISDS Cases Tracker project.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f4f6fa"/>
+      <stop offset="100%" stop-color="#e3eaf2"/>
+    </linearGradient>
+    <linearGradient id="hero" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#163459"/>
+      <stop offset="100%" stop-color="#28527d"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1160" height="650" fill="url(#bg)"/>
+  <rect x="52" y="52" width="1056" height="546" rx="24" fill="#ffffff" stroke="#cad4df" stroke-width="4"/>
+
+  <rect x="96" y="96" width="496" height="262" rx="24" fill="url(#hero)"/>
+  <rect x="140" y="146" width="246" height="24" rx="12" fill="#ffffff" opacity="0.9"/>
+  <rect x="140" y="188" width="312" height="14" rx="7" fill="#aac0d9"/>
+  <rect x="140" y="214" width="280" height="14" rx="7" fill="#aac0d9"/>
+  <rect x="140" y="252" width="126" height="36" rx="18" fill="#f4f7fb"/>
+  <rect x="282" y="252" width="126" height="36" rx="18" fill="none" stroke="#f4f7fb" stroke-width="3"/>
+
+  <rect x="646" y="96" width="418" height="262" rx="22" fill="#f8fafc" stroke="#d7e0e8" stroke-width="3"/>
+  <rect x="678" y="130" width="70" height="70" rx="14" fill="#274d74"/>
+  <path d="M695 184l36-38 18 18" fill="none" stroke="#f5f8fb" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="772" y="140" width="228" height="18" rx="9" fill="#20364c"/>
+  <rect x="772" y="174" width="202" height="12" rx="6" fill="#9cabbb"/>
+  <rect x="678" y="238" width="354" height="92" rx="16" fill="#eef3f7"/>
+  <rect x="706" y="266" width="166" height="12" rx="6" fill="#20364c"/>
+  <rect x="706" y="292" width="290" height="10" rx="5" fill="#a1afbe"/>
+
+  <text x="98" y="442" fill="#20364c" font-family="Aptos, Segoe UI, Arial, sans-serif" font-size="40" font-weight="700" letter-spacing="4">FOCUS AREAS</text>
+
+  <rect x="98" y="474" width="298" height="92" rx="18" fill="#fbfcfd" stroke="#d7e0e8" stroke-width="3"/>
+  <rect x="128" y="506" width="122" height="12" rx="6" fill="#2a4867"/>
+  <rect x="128" y="532" width="214" height="10" rx="5" fill="#a1afbe"/>
+
+  <rect x="430" y="474" width="298" height="92" rx="18" fill="#fbfcfd" stroke="#d7e0e8" stroke-width="3"/>
+  <rect x="460" y="506" width="144" height="12" rx="6" fill="#2a4867"/>
+  <rect x="460" y="532" width="214" height="10" rx="5" fill="#a1afbe"/>
+
+  <rect x="762" y="474" width="298" height="92" rx="18" fill="#fbfcfd" stroke="#d7e0e8" stroke-width="3"/>
+  <rect x="792" y="506" width="160" height="12" rx="6" fill="#2a4867"/>
+  <rect x="792" y="532" width="214" height="10" rx="5" fill="#a1afbe"/>
+
+  <text x="98" y="612" fill="#20364c" font-family="Aptos, Segoe UI, Arial, sans-serif" font-size="44" font-weight="700" letter-spacing="4">CHINA-RELATED ISDS CASES TRACKER</text>
+</svg>
